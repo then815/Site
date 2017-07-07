@@ -2,13 +2,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="../styles/styles.css">    
+<link rel="stylesheet" type="text/css" href="../styles/styles.css"> 
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <title><?php echo $title;?></title>
 </head>
 <body>
-    <div class="wrapper">
     <header>
-        <img src="../img/logo.png" alt="open charity logo">
+        <img src="../img/logo.png" alt="open charity">
         <nav>
         <ul>
             <li>About Open Charity</li>

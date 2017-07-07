@@ -1,25 +1,116 @@
 /* Colors
 hero-bg : f2f2f2
+hero-text: ffffff
 footer-bg : 585b61
 footer-text : 969eb6
 footer-anchor-text : 5ac0cf
 headers-text : 565659
-light-blue-body-text : 61c0bd
+light-blue : 61c0bd
 body-grey-text : 5b6172 */
 
+/* reset */
+html,
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
 
 .wrapper{
+    display: grid;    
+    grid-template-rows: auto auto auto 54.375em 22.5em 37.5em 35em 39.375em 10em 7.8125em;
+    grid-column-gap: 2.4%;
+    width:100%;
+    font-family: 'Raleway', sans-serif;
+}
+header img{
+    padding-top:.5rem;
+}
+header{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto;
-    grid-column-gap: 2.4%;
-    margin: 1% 3% 1% 4.3%;
+    grid-column-start: 0;
+    grid-row-start: 0;
+    font-size:1.05rem;
+    font-weight: bold;
+    color: #575656;
+    margin-bottom:0;
+    padding-bottom:0;
+    margin-left: 3%;
     padding: .5% 2.4%;
 }
-li{
-    display: inline-block;
-    list-style-type: none;
-}
 nav{
-    grid-column-start: 7;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    grid-row-start: 0;
 }
+.cta{
+    color: #61c0bd;
+    border: 2px solid #61c0bd;
+    border-radius: .25%;
+    padding:.75rem 1.75rem;
+}
+nav li{
+    display:inline-block;
+    padding:.75rem 2.15rem;
+    margin:auto;
+    text-transform: uppercase;
+    
+}
+
+/* hero */
+.hero{
+    grid-row-start: 2;
+    grid-row-end: 2; 
+    background-image:url(../img/hero1.png);
+    background-color: #f2f2f2;
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left:0%;
+    color: #ffffff;
+    }
+.overlay{
+    background-color:rgba(91,97,114,.45);
+    height:100%;
+    width:100%;
+}
+.hero p, 
+h2{
+    text-align:center;
+    padding-bottom: 2.5rem;
+}
+h2{
+    font-size:3rem;
+    text-transform: uppercase;
+    margin:auto;
+    width:60%;
+    padding-top: 4.5rem;
+}
+.hero p{
+    grid-column-start: 4;
+    grid-column-end: 9;
+    font-size: 1rem;
+    width: 40%;
+    margin: auto;
+    line-height: 1.5em;
+}
+.hero p:nth-child(3){
+    font-size: .85rem;
+}
+.hero p:nth-child(4){
+    padding-bottom: 4.5rem;
+}
+/*Event*/
+.event{
+    grid-row-start:3;
+    grid-row-end: 3;
+    background: #f1f2f5;
+    color: #5b6172;
+}
+.event p{
+    margin-left: 3%;
+    padding: .5% 2.4%;
+}
+

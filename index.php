@@ -1,4 +1,11 @@
 <?php
 require('inc/header.php');
-require('inc/footer.php');
 ?>
+<div class="wrapper">
+<?php
+    require('inc/hero.php');
+    require('inc/event.php');
+    require('inc/footer.php');
+    ?>
+
+
