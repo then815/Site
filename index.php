@@ -5,6 +5,8 @@ require('inc/header.php');
 <?php
     require('inc/hero.php');
     require('inc/event.php');
+    require('inc/involved.php')
+        
     require('inc/footer.php');
     ?>
 

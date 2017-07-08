@@ -42,24 +42,29 @@ header{
     font-family: 'Raleway', sans-serif;
 
 }
-nav{
-    grid-column-start: 6;
-    grid-column-end: 13;
-    grid-row-start: 0;
+header div{
+    margin:auto;
+    text-transform: uppercase;
+    grid-row-start: 1;
+}
+
+.about{
+    grid-column-start:6;
+    grid-column-end: 9;
+}
+.blog{
+    grid-column-start:9;
+    grid-column-end:11;
 }
 .cta{
     color: #61c0bd;
     border: 2px solid #61c0bd;
     border-radius: .25%;
+    grid-column-start:11;
+    grid-column-end:13;
     padding:.75rem 1.75rem;
 }
-nav li{
-    display:inline-block;
-    padding:.75rem 2.15rem;
-    margin:auto;
-    text-transform: uppercase;
-    
-}
+
 
 /* hero */
 .hero{
