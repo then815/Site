@@ -32,7 +32,7 @@ header{
     grid-template-columns: repeat(12, 1fr);
     grid-column-start: 0;
     grid-row-start: 0;
-    font-size:1.05rem;
+    font-size:1.31305rem;
     font-weight: bold;
     color: #575656;
     margin-bottom:0;
@@ -81,25 +81,25 @@ nav li{
 .hero p, 
 h2{
     text-align:center;
-    padding-bottom: 2.5rem;
-}
-h2{
-    font-size:3rem;
+    padding-bottom: 0;
+    font-size:4rem;
     text-transform: uppercase;
     margin:auto;
-    width:60%;
+    width:65%;
     padding-top: 4.5rem;
 }
+
 .hero p{
     grid-column-start: 4;
     grid-column-end: 9;
-    font-size: 1rem;
-    width: 40%;
+    font-size: 1.42rem;
+    width: 55%;
     margin: auto;
     line-height: 1.5em;
+    padding-top: 2.313rem;
 }
 .hero p:nth-child(3){
-    font-size: .85rem;
+    font-size: 1.17rem;
 }
 .hero p:nth-child(4){
     padding-bottom: 4.5rem;
@@ -113,32 +113,32 @@ h2{
     display:grid;
     grid-template-rows: auto;
     grid-template-columns: repeat(12, 1fr);
-    padding: .5% 2.4%;
+    padding: .5% 6% .5% 2.4%;
 }
 .event .nextEvent{
     margin-left: 3%;
     padding: .5% 2.4%;
     width: auto;
     grid-column-start: 1;
-    grid-column-end: 6;
+    grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 1;
-    font-size: .875rem;
+    font-size: 1.17rem;
     font-family: 'Raleway', sans-serif;
 }
 .event .next{
     color: #61c0bd;
-    font-size: 1.05rem;
+    font-size: 1.17rem;
     font-weight:bold;
 }
 .event .date{
-    font-size: 1.05rem;
+    font-size: 1.42rem;
     font-weight: bold;
 }
 .event .button{
     background: #61c0bd;
     color: #ffffff;
-    grid-column-start: 11;
+    grid-column-start: 12;
     grid-row-start: 1;
     margin: auto;
     padding: .85rem 1.75rem;
