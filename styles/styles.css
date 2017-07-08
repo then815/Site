@@ -39,6 +39,8 @@ header{
     padding-bottom:0;
     margin-left: 3%;
     padding: .5% 2.4%;
+    font-family: 'Raleway', sans-serif;
+
 }
 nav{
     grid-column-start: 6;
@@ -104,13 +106,42 @@ h2{
 }
 /*Event*/
 .event{
-    grid-row-start:3;
+    grid-row-start: 3;
     grid-row-end: 3;
     background: #f1f2f5;
     color: #5b6172;
-}
-.event p{
-    margin-left: 3%;
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(12, 1fr);
     padding: .5% 2.4%;
 }
-
+.event .nextEvent{
+    margin-left: 3%;
+    padding: .5% 2.4%;
+    width: auto;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    font-size: .875rem;
+    font-family: 'Raleway', sans-serif;
+}
+.event .next{
+    color: #61c0bd;
+    font-size: 1.05rem;
+    font-weight:bold;
+}
+.event .date{
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+.event .button{
+    background: #61c0bd;
+    color: #ffffff;
+    grid-column-start: 11;
+    grid-row-start: 1;
+    margin: auto;
+    padding: .85rem 1.75rem;
+    text-transform: uppercase;
+    font-size:1.05rem;
+}
