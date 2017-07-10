@@ -1,12 +1,3 @@
-/* Colors
-hero-bg : f2f2f2
-hero-text: ffffff
-footer-bg : 585b61
-footer-text : 969eb6
-footer-anchor-text : 5ac0cf
-headers-text : 565659
-light-blue : 61c0bd
-body-grey-text : 5b6172 */
 
 /* reset */
 html,
@@ -15,14 +6,15 @@ body{
     margin: 0;
 }
 
+
 /* header */
 
 .wrapper{
     display: grid;    
-    grid-template-rows: auto auto auto 54.375em 22.5em 37.5em 35em 39.375em 10em 7.8125em;
+    grid-template-rows: auto auto auto auto auto auto 35em 39.375em 10em 7.8125em;
     grid-column-gap: 2.4%;
     width:100%;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Museo Sans', 'Raleway', sans-serif;
 }
 header img{
     padding-top:.5rem;
@@ -39,7 +31,7 @@ header{
     padding-bottom:0;
     margin-left: 3%;
     padding: .5% 2.4%;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Museo Sans', 'Raleway', sans-serif;
 
 }
 header div{
@@ -129,7 +121,7 @@ h2{
     grid-row-start: 1;
     grid-row-end: 1;
     font-size: 1.17rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Museo Sans', 'Raleway', sans-serif;
 }
 .event .next{
     color: #61c0bd;
@@ -140,7 +132,7 @@ h2{
     font-size: 1.42rem;
     font-weight: bold;
 }
-.event .button{
+.button{
     background: #61c0bd;
     color: #ffffff;
     grid-column-start: 12;
@@ -149,4 +141,142 @@ h2{
     padding: .85rem 1.75rem;
     text-transform: uppercase;
     font-size:1.05rem;
+}
+
+/* Get Involved */
+.involved{
+    grid-row-start: 4;
+    grid-row-end: 4;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2.4%;
+    padding: .5% 6% .5% 2.4%;
+}
+.involved div{
+    text-align: center;
+    font-size: 1.171rem;
+    margin: 2.4%;
+    margin-bottom: 1.875rem;
+    color: #5b6172;
+    font-family: 'Open Sans', sans-serif;
+}
+h3{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start:2;
+    grid-column-end:2;
+    text-align: center;
+    margin: 2.34rem auto;
+    font-size: 2.1747rem;
+    font-family: 'Museo Sans', 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #575656;
+}
+.involved h4{
+    margin: 2.813rem auto;
+    font-size: 1.4219rem;
+    font-family: 'Museo Sans', 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #575656;
+}
+
+.meetup{
+    grid-row-start:2;
+    grid-column-start: 1;
+}
+.slack{
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+.googleGroup{
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+.involved .button{
+    background: #ffffff;
+    color: #61c0bd;
+    border: 2px solid #61c0bd;
+    padding: .938rem 3.125rem;
+    border-radius: .25%;
+}
+
+/* Mission */
+
+.mission {
+    grid-row-start:5;
+    background: #f1f2f5;
+    margin-top: 2.144rem;
+    text-align:center;
+    padding-bottom: 2.4%;
+}
+
+.mission p{
+    margin: auto;
+    width: 56%;
+    color: #5b6172;
+    padding: 1.07rem;
+}
+.mission p:nth-child(2){
+    font-family: 'Open Sans', sans-serif;
+    font-size: .875rem;
+}
+.mission p:nth-child(3){
+    font-family: 'Museo Sans','Raleway', sans-serif;
+    font-size: 1.063rem;
+    font-weight: bold;
+    color: #5b6172;
+}
+
+/* We Statements */
+.weStatements{
+    padding: 20% 5.3% 3.125rem 6.7%;
+    display: grid;
+    grid-row-start:6;
+    grid-template-columns: repeat(3 1fr);
+    grid-column-gap: 2.4%;
+    background: #f1f2f5;
+    text-align: center;
+    
+    }
+.weStatements img{
+    margin-top:-20%;
+    margin-bottom: 2.5%;
+}
+.weStatements h5{
+    font-family: 'Museo Sans','Raleway', sans-serif;
+    font-size: 1.063rem;
+    color: #5dc0c9;
+    margin-top: 0;
+}
+.weStatements p{
+    font-size: .875rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #575656;
+    line-height: 2rem;
+}
+.weStatements div{
+    background: #ffffff;
+    margin-top:5%;
+    padding: 1.625rem;
+}
+.charities{
+    grid-column-start: 1;
+}
+.together{
+    grid-column-start: 2;
+}
+.encourage{
+    grid-column-start: 3;
+}
+.line{
+    height: 0px;
+    background: #f1f2f5;
+    border-bottom: 2.5px solid #d9dadd;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin: 0 5%;
+    padding-top: 3.125rem;
+    height: 0px;
 }
