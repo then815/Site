@@ -11,7 +11,7 @@ body{
 
 .wrapper{
     display: grid;    
-    grid-template-rows: auto auto auto auto auto auto 35em 39.375em 10em 7.8125em;
+    grid-template-rows: auto auto auto auto auto auto auto auto 10em 7.8125em;
     grid-column-gap: 2.4%;
     width:100%;
     font-family: 'Museo Sans', 'Raleway', sans-serif;
@@ -161,14 +161,14 @@ h2{
     color: #5b6172;
     font-family: 'Open Sans', sans-serif;
 }
-h3{
+.involved h3{
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start:2;
     grid-column-end:2;
     text-align: center;
     margin: 2.34rem auto;
-    font-size: 2.1747rem;
+    font-size: 1.625rem;
     font-family: 'Museo Sans', 'Raleway', sans-serif;
     text-transform: uppercase;
     color: #575656;
@@ -204,22 +204,42 @@ h3{
 /* Mission */
 
 .mission {
+    display: grid;
     grid-row-start:5;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2.4%;
+    grid-template-rows: auto auto auto;
     background: #f1f2f5;
     margin-top: 2.144rem;
     text-align:center;
     padding-bottom: 2.4%;
 }
+.mission h3{
+    font-size: 1.625rem;
+    font-family: 'Museo Sans', 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #575656;
+    grid-column-start: 2;
+    grid-column-end:2;
+    grid-row-start:1;
+    margin-bottom:2%;
+    
+}
 
 .mission p{
-    margin: auto;
-    width: 56%;
+    grid-column-start:1;
+    grid-column-end: 3;
     color: #5b6172;
     padding: 1.07rem;
+    width:150%;
+    grid-row-start: 3;
+    
 }
 .mission p:nth-child(2){
     font-family: 'Open Sans', sans-serif;
     font-size: .875rem;
+    grid-row-start:2;
+    margin-bottom: 2%;
 }
 .mission p:nth-child(3){
     font-family: 'Museo Sans','Raleway', sans-serif;
@@ -279,4 +299,134 @@ h3{
     margin: 0 5%;
     padding-top: 3.125rem;
     height: 0px;
+}
+
+/* Members */
+
+.members{
+    display: grid;
+    grid-row-start:7;
+    grid-template-columns: repeat(3 1fr);
+    grid-column-gap: 2.4%;
+    background: #f1f2f5;
+    text-align: center;
+    padding:2.4%;
+    
+}
+.members h3{
+    grid-row-start:1;
+    grid-column-start:2;
+    grid-column-end:2;
+    margin:auto;
+    text-align:left;
+    font-size: 1.625rem;
+    font-family: 'Museo Sans', 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #575656;
+    
+}
+.logos{
+    display: grid;
+    grid-template-columns: repeat(5 1fr);
+    grid-column-gap: 5%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.logo{
+    grid-row-start: 2;
+}
+.logo img{
+    margin:auto;
+    vertical-align: middle;
+    padding-top: 15%;
+}
+.groupCounter{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-start:3;
+    padding-bottom: 1.563rem;
+}
+.counter{
+    display: inline-block;
+    height:.625rem;
+    width:.625rem;
+    border-radius:50%;
+    background: #979eb1;
+}
+.active{
+    background: #5fc0c3;
+}
+/* Blog Row */
+.blogRow{
+    display: grid;
+    margin-left:3%;
+    grid-row-start:8;
+    grid-template-columns: 2.4% repeat(3 1fr) 2.4;
+    grid-column-gap: 2.4%;
+    text-align: center;
+    padding:2.4%;
+}
+.blogRow h3{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-end:2;
+    text-align: center;
+    margin: 1.875rem auto;
+    font-size: 1.625rem;
+    font-family: 'Museo Sans', 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #575656;
+}
+.blogs{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:2;
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    grid-column-gap: 1.785rem;
+}
+.blogPreview{
+    grid-row-start:1;
+    text-align: left;
+    font-size: .875rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #5b6172;
+}
+.arrow{
+    grid-row-start: 2;
+}
+.1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+   
+    
+}
+.2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    
+}
+.3{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    
+}
+.4{
+    grid-column-start: 4;
+    grid-column-end: 4;
+    
+}
+.blogPreview h4{
+    margin-top: 0;
+    font-size: .875rem;
+    color: #61c0bd;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #f1f2f5;
+    padding-bottom:.625rem;
+    font-weight:300;
+}
+.blogPreview .blurb{
+    border-bottom: 1px solid #f1f2f5;
+    padding-bottom:.625rem;
 }
