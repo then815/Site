@@ -10,10 +10,10 @@
 </head>
 <body>
     <header>
-        <img src="../img/logo.png" alt="open charity">
+        <a href="#" title="openCharity home"><img src="../img/logo.png" alt="open charity"></a>
         
-            <div class="about">About Open Charity</div>
-            <div class="blog">The Blog</div>
-            <div class="cta">Join Us</div>
+        <div class="about"><a href="#" title="about">About Open Charity</a></div>
+                <div class="blog"><a href="#" title="blog">The Blog</a></div>
+                <div class="cta"><a href="#" title="join">Join Us</a></div>
         
     </header>

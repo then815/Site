@@ -4,6 +4,6 @@
     <br/>
     Cancer Research UK, Angel Bilding, 407 St John Street, London EC1V 4AD</p>
     <span class="button">
-        Register
+        <a href="#" title="register"> Register </a>
     </span>
 </div>

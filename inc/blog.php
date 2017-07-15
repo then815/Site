@@ -2,6 +2,7 @@
     <h3>Blog</h3>
     
     <div class="blogs">
+        <div class="arrowLeft">&lt;</div>
         <?php
         for($i = 0; $i <= 3; $i++){
         
@@ -12,7 +13,7 @@
         <p><time datetime="2014-11-14">14 Nov 2014</time></p>
         </div>    
        <?php }
-        ?>  
+        ?> 
+        <div class="arrowRight">&gt;</div> 
     </div>
-        <div class="arrow">&gt;</div> 
 </div>

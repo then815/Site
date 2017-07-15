@@ -12,7 +12,7 @@
     <div class="encourage">
         <img class="encourageIcon" src="../img/likeIcon.png" alt="lightbulb icon"/>
         <h5>We encourage</h5>
-        <p>collaboration and innovation for the good of the charity sector</p>
+        <p>collaboration and innovation for the good of the charity sector.</p>
     </div>
     <span class="line">&nbsp;</span>
 </div>
