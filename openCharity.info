@@ -1,0 +1,17 @@
+name=openCharity
+description = single page, multiple columns.  built with CSS Grid
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = styles/styles.css
+
+regions[header] = Header
+regions[hero] = Hero
+regions[event] = Event
+regions[involved] = Involved
+regions[mission] = Mission
+regions[weStatements] = We Statements
+regions[members] = Members
+regions[blog] = Blog
+regions[footer] = Footer
