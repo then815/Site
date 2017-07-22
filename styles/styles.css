@@ -11,7 +11,7 @@ body{
 
 .wrapper{
     display: grid;    
-    grid-template-rows: auto auto auto auto auto auto auto auto 10em;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
     grid-column-gap: 2.4%;
     width:100%;
     font-family: 'Museo Sans', 'Raleway', sans-serif;
@@ -262,7 +262,7 @@ header a[title="join"]{
 
 /* We Statements */
 .weStatements{
-    padding: 20% 5.3% 3.125rem 6.7%;
+    padding: 2.4% 5.3% 3.125rem 6.7%;
     display: grid;
     grid-row-start:6;
     grid-template-columns: repeat(3 1fr);

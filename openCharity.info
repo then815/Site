@@ -1,8 +1,7 @@
 name=openCharity
 description = single page, multiple columns.  built with CSS Grid
-package = Core
-version = VERSION
 core = 7.x
+engine=phptemplate
 
 stylesheets[all][] = styles/styles.css
 
@@ -15,3 +14,6 @@ regions[weStatements] = We Statements
 regions[members] = Members
 regions[blog] = Blog
 regions[footer] = Footer
+
+features[] = name
+features[] = main_menu
