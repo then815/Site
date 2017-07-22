@@ -1,5 +1,11 @@
 name=openCharity
+<<<<<<< HEAD
 description = single page, multiple columns.  built with CSS Grid
+=======
+description = single page, multiple columns.  built with CSS Grid.  
+package = Core
+version = VERSION
+>>>>>>> origin/master
 core = 7.x
 engine=phptemplate
 
@@ -16,4 +22,8 @@ regions[blog] = Blog
 regions[footer] = Footer
 
 features[] = name
+<<<<<<< HEAD
 features[] = main_menu
+=======
+features[] = name_menu
+>>>>>>> origin/master
